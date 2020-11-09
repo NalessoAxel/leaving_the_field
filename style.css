@@ -1,3 +1,7 @@
+
+
+
+
 .column.header {
     display: flex;
     flex-direction: row;
@@ -8,7 +12,6 @@ h1.title {
 p.description {
     margin: 20px;
 }
-
 .card {
     height: 100%;
 }
@@ -19,14 +22,21 @@ p.description {
     border: none;
 }
 img.img-terror{
-    
     height: 333px;
+}
+.fab {
+    color: red;
+}
+.fab:hover {
+    color: rgba(18, 18, 126, 0.672);
 }
 @media screen and (max-width: 768px) {
     .column.header {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .is-rounded{
         display: flex;
