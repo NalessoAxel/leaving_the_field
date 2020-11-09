@@ -1,0 +1,85 @@
+10 oeuvres (jeu, film, séries, livre, musique) 
+- Titre 
+- Une image d'illustration 
+- Un lien (bande annonce)
+- Catégorie 
+- L'auteur 
+- Description
+
+
+
+
+
+
+
+
+Séries
+
+- Titre : Twin Peaks
+- img : (https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FnydkEhCYlyQ%2Fhqdefault.jpg&f=1&nofb=1)
+- lien B-A: (https://www.youtube.com/watch?v=2rmC9M1yla0)
+- Catégorie : Drame, thriller
+- Auteur : David Lynch
+- Description : Un meurtre a été commis à Twin Peaks, une petite bourgade en apparence tranquille. 
+La jeune Laura Palmer est retrouvée morte nue au bord d'un lac.
+
+- Titre : The Terror
+- img : (https://media.senscritique.com/media/000017698167/source_big/The_Terror.jpg)
+- lien B-A : https://www.youtube.com/watch?v=pjq7Gl_hhPY
+- Catégorie : Aventure,Épouvante-horreur.
+- Auteur : David Kajganich, Alexander Woo et Max Borenstein.
+- Description : En 1847, la Marine Royale britannique entreprend une périlleuse mission : découvrir le passage du Nord. 
+Forcé de prendre le commandement, le capitaine Francis Crozier devra gérer le froid glacial, les menaces de mutinerie, le manque de nourriture ainsi qu'une menace bien pire encore...
+
+- Titre : Westworld
+- img : (https://media.senscritique.com/media/000016309912/source_big/Westworld.jpg)
+- lien B-A : https://www.youtube.com/watch?v=9BqKiZhEFFw
+- Catégorie : Science-fiction, thriller 
+- Auteur : Jonathan Nolan et Lisa Joy 
+- Description : Westworld, un parc d'attractions dernier cri, les visiteurs paient des fortunes pour revivre le frisson de la conquête de l'Ouest.
+
+Titre : The Mandalorian
+- img : (https://media.senscritique.com/media/000018666655/source_big/The_Mandalorian.jpg)
+- lien B-A : (https://www.youtube.com/watch?v=O6VKY1UkBak&feature=emb_title)
+- Catégorie : Aventure, science-fiction 
+- Auteur : Jon Favreau 
+- Description : Le Mandalorien se déroule après la chute de l'Empire et juste avant l'émergence de 
+Premier Ordre et raconte les voyages dans les contrées les plus éloignées de la Galaxie d'un tireur solitaire loin de l’autorité de la Nouvelle République.
+
+- Titre : Fargo
+- img : (https://media.senscritique.com/media/000016894180/source_big/Fargo.jpg)
+- lien B-A: (https://www.youtube.com/watch?v=gKs8DzjPDMU&feature=emb_title)
+- Catégorie : Comédie, policier
+- Auteur :  Noah Hawley 
+- Description : Le quotidien des habitants d'une petite ville du Minnesota se retrouve bouleversé suite au passage d'un tueur à gages.
+
+- Titre : Chernobyl
+- img : (https://www.youtube.com/watch?v=s9APLXM9Ei8&feature=emb_title)
+- lien B-A : (https://www.youtube.com/watch?v=s9APLXM9Ei8&feature=emb_title)
+- Catégorie : Drame, historique
+- Auteur : Craig Mazin 
+- Description : 26 avril 1986, l'histoire vraie de la pire catastrophe causée par l'homme et de ceux qui ont sacrifié leur vie pour sauver l'Europe du drame.
+
+- Titre : Dark
+- img : (https://media.senscritique.com/media/000018789064/source_big/Dark.jpg)
+- lien B-A : (https://www.youtube.com/watch?v=qJpIHpZSkXo)
+- Catégorie :  Science-fiction, policier
+- Auteur : Baran bo Odar et Jantje Friese
+- Description : Un enfant disparu lance quatre familles dans une quête éperdue pour trouver des réponses. 
+La chasse au coupable fait émerger les péchés et les secrets d'une petite ville.
+
+- Titre : Mr Robot
+- img : (https://media.senscritique.com/media/000010519445/source_big/Mr_Robot.jpg)
+- lien B-A : (https://www.youtube.com/watch?v=uml6bz9ygxA&feature=emb_title)
+- Catégorie : Drame et thriller 
+- Auteur : Sam Esmail 
+- Description : Elliot est un jeune programmeur antisocial qui souffre d'un trouble du comportement. 
+Il est recruté par un anarchiste mystérieux, qui se fait appeler Mr. Robot.
+
+- Titre : MindHunter
+- img : (https://media.senscritique.com/media/000018663248/source_big/Mindhunter.jpg)
+- lien B-A: (https://www.youtube.com/watch?v=YnLQzzJMnV8&feature=emb_title)
+- Catégorie : Thriller, drame
+- Auteur : Joe Penhall
+- Description : Comment anticiper la folie quand on ignore comment fonctionnent les fous? Deux agents du FBI imaginent une enquête aux méthodes révolutionnaires et se lancent dans une véritable odyssée pour obtenir des réponses.
+
