@@ -39,4 +39,12 @@ img.img-terror{
         display: flex;
         justify-content: center;
     }
+    img.img-terror{
+        height: auto;
+    }
+}
+@media screen and (max-width: 1200px) {
+    img.img-terror{
+        height: auto;
+    }
 }
