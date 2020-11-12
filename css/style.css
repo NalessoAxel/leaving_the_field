@@ -160,8 +160,8 @@ body.dark > div > section > div > div:nth-child(9) > div > h5 {
 body.dark > div > section > div > div:nth-child(10) > div > h5 {
     color: white;
 }
-/* 
-BACKGROUND CARD DARKMODE */
+
+/* BACKGROUND CARD DARKMODE */
 
 body.dark > div > section > div > div:nth-child(1) > div {
     background-color:rgb(31, 31, 31);

@@ -149,7 +149,7 @@ for (let element of collection) {
     const newDiv = document.createElement('div')
         newDiv.className = "card"
         newDiv.style.height = '100%'
-        newDiv.style.width = 'auto'
+        
         
 
     const img = document.createElement('img')
@@ -169,7 +169,7 @@ for (let element of collection) {
     const paragraph = document.createElement('p')
         paragraph.textContent = element.description
         paragraph.className = "content mt-3 px-3"
-        paragraph.style.marginBottom = '10px'
+        paragraph.style.paddingBottom = '25px'
        
     const footer = document.createElement('footer')
         footer.className = "card-footer mx-0"
