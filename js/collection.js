@@ -34,7 +34,7 @@ const collection = [
         ],
         link : 'https://www.youtube.com/watch?v=YnLQzzJMnV8&feature=emb_title',
         description: 'Comment anticiper la folie quand on ignore comment fonctionnent les fous? Deux agents du FBI imaginent une enquête aux méthodes révolutionnaires et se lancent dans une véritable odyssée pour obtenir des réponses.',
-        image:'./img/MindHunter.jpg',
+        image:'./img/Mindhunter.jpg',
 
     },
     {
