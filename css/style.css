@@ -19,11 +19,13 @@ p.description {
     height: 100%;
 }
 .card-footer {
+    display: flex;
+
     position: absolute;
     bottom: 1px;
     left: 40%;
     border: none;
-}
+} 
 img.img-terror{
     height: 333px;
 }
@@ -43,7 +45,7 @@ img.img-terror{
     cursor: pointer;
     outline: none;
     border: none;
-    border-radius: 1rem;
+    border-radius: 20px;
     margin-left: 20px;
 }
 .darkModeSwitch span{
@@ -76,16 +78,133 @@ img.img-terror{
     right:0;
   }
   body {
-    background: #f2f2f2;
+    background: white;
     
   }
   body.dark{
-    background: url(/img/bg2.jpeg);
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     
   }
-body.dark.h1.title  {
+body.dark h1.title  {
         color: white;
 }
+body.dark p.description {
+    color: white;
+}
+
+/* H3 DARKMODE  */
+body.dark > div > section > div > div:nth-child(1) > div > h3 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(2) > div > h3 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(3) > div > h3 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(4) > div > h3 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(5) > div > h3 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(6) > div > h3 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(7) > div > h3 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(8) > div > h3 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(9) > div > h3 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(10) > div > h3 {
+    color: white;
+}
+
+/* H5 DARKMODE */
+
+
+body.dark > div > section > div > div:nth-child(1) > div > h5 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(2) > div > h5 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(3) > div > h5 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(4) > div > h5 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(5) > div > h5 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(6) > div > h5 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(7) > div > h5 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(8) > div > h5 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(9) > div > h5 {
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(10) > div > h5 {
+    color: white;
+}
+/* 
+BACKGROUND CARD DARKMODE */
+
+body.dark > div > section > div > div:nth-child(1) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(2) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(3) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(4) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(5) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(6) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(7) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(8) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(9) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > div > section > div > div:nth-child(10) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+
+
 
 
 /* MEDIA QUERIES */
