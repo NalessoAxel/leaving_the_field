@@ -135,22 +135,21 @@ const rien = document.querySelectorAll('.columns')
         el.innerHTML = ''
     })
 
-    const body = document.querySelector('section')
-    body.innerHTML = ''
-    body.className = 'container my-6'
+const body = document.querySelector('section')
+    body.className = 'container'
+
 const divCol = document.createElement("div")
     divCol.className = "columns is-flex-wrap-wrap"
 
 
 for (let element of collection) {
+
     const div = document.createElement('div')
         div.className = 'column is-3'
 
     const newDiv = document.createElement('div')
         newDiv.className = "card"
-        newDiv.style.height = '100%'
-        
-        
+        newDiv.style.height = '100%' 
 
     const img = document.createElement('img')
         img.src = element.image
@@ -161,11 +160,12 @@ for (let element of collection) {
         title.innerText = element.title
         title.className = 'title is-4 mb-3 mt-3'
         title.style.textAlign = 'center'
-    /*     title.style.marginTop = '10px' */
+
     const author = document.createElement('h5')
         author.innerText = element.author
         author.className = 'subtitle is-6'
         author.style.margin = "5px 10px"
+
     const paragraph = document.createElement('p')
         paragraph.textContent = element.description
         paragraph.className = "content mt-3 px-3"
@@ -178,6 +178,7 @@ for (let element of collection) {
         link.className = 'card-footer-item'
         link.href = element.link
         link.target = '_blank'
+
     const icone = document.createElement('i')
         icone.className = 'fab fa-youtube fa-2x'
         
