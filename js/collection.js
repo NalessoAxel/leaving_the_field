@@ -95,7 +95,7 @@ const collection = [
         ],
         link : 'https://www.youtube.com/watch?v=D-kWun2a7oU&feature=emb_title',
         description: 'A chaque saison, son histoire. True Detective nous embarque dans des récits policiers mêlant mysticisme, réflexions philosophiques et personnages torturés',
-        image:'./img/True_detective.jpg',
+        image:'./img/True_Detective.jpg',
 
     },
     {
