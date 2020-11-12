@@ -37,7 +37,7 @@ img.img-terror{
 }
 /* DARK MODE */
 
-.darkModeSwitch{
+.darkModeSwitch {
     background: black;
     color: white;
     display:flex;
@@ -48,7 +48,7 @@ img.img-terror{
     border-radius: 20px;
     margin-left: 20px;
 }
-.darkModeSwitch span{
+.darkModeSwitch span {
     width:30px;
     height:30px;
     line-height:30px;
@@ -56,7 +56,7 @@ img.img-terror{
     color:#fff;
     background: none;
 }
-.darkModeSwitch::after{
+.darkModeSwitch::after {
     display:block;
     background: #fffbf5;
     width: 2.4rem;
@@ -72,137 +72,141 @@ img.img-terror{
 }
 .darkModeSwitch.active{
     background: #e2e1df;
-  }
+}
 .darkModeSwitch.active::after{
     left:unset;
     right:0;
-  }
+}
   body {
     background: white;
     
-  }
+}
   body.dark{
     background: black;
     background-repeat: no-repeat;
     background-size: cover;
     
     
-  }
+}
 body.dark h1.title  {
         color: white;
 }
 body.dark p.description {
     color: white;
 }
+.fas.fa-sun {
+    color: black;
+}
 
 /* H3 DARKMODE  */
-body.dark > div > section > div > div:nth-child(1) > div > h3 {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(1) > div h3  {
     color: white;
 }
-body.dark > div > section > div > div:nth-child(2) > div > h3 {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(2) > div h3 {
     color: white;
 }
-body.dark > div > section > div > div:nth-child(3) > div > h3 {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(3) > div > h3 {
     color: white;
 }
-body.dark > div > section > div > div:nth-child(4) > div > h3 {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(4) > div > h3 {
     color: white;
 }
-body.dark > div > section > div > div:nth-child(5) > div > h3 {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(5) > div > h3 {
     color: white;
 }
-body.dark > div > section > div > div:nth-child(6) > div > h3 {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(6) > div > h3 {
     color: white;
 }
-body.dark > div > section > div > div:nth-child(7) > div > h3 {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(7) > div > h3 {
     color: white;
 }
-body.dark > div > section > div > div:nth-child(8) > div > h3 {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(8) > div > h3 {
     color: white;
 }
-body.dark > div > section > div > div:nth-child(9) > div > h3 {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(9) > div > h3 {
     color: white;
 }
-body.dark > div > section > div > div:nth-child(10) > div > h3 {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(10) > div > h3 {
     color: white;
 }
 
 /* H5 DARKMODE */
 
 
-body.dark > div > section > div > div:nth-child(1) > div > h5 {
-    color: white;
+body.dark  > section > div.columns.is-flex-wrap-wrap > div:nth-child(1) > div > h5 {
+    color: rgb(202, 202, 202);
 }
-body.dark > div > section > div > div:nth-child(2) > div > h5 {
-    color: white;
+body.dark  > section > div.columns.is-flex-wrap-wrap > div:nth-child(2) > div > h5 {
+    color: rgb(202, 202, 202);
 }
-body.dark > div > section > div > div:nth-child(3) > div > h5 {
-    color: white;
+body.dark  > section > div.columns.is-flex-wrap-wrap > div:nth-child(3) > div > h5 {
+    color: rgb(202, 202, 202);
 }
-body.dark > div > section > div > div:nth-child(4) > div > h5 {
-    color: white;
+body.dark  > section > div.columns.is-flex-wrap-wrap > div:nth-child(4) > div > h5 {
+    color: rgb(202, 202, 202);
 }
-body.dark > div > section > div > div:nth-child(5) > div > h5 {
-    color: white;
+body.dark  > section > div.columns.is-flex-wrap-wrap > div:nth-child(5) > div > h5 {
+    color: rgb(202, 202, 202);
 }
-body.dark > div > section > div > div:nth-child(6) > div > h5 {
-    color: white;
+body.dark  > section > div.columns.is-flex-wrap-wrap > div:nth-child(6) > div > h5 {
+    color: rgb(202, 202, 202);
 }
-body.dark > div > section > div > div:nth-child(7) > div > h5 {
-    color: white;
+body.dark  > section > div.columns.is-flex-wrap-wrap > div:nth-child(7) > div > h5 {
+    color: rgb(202, 202, 202);
 }
-body.dark > div > section > div > div:nth-child(8) > div > h5 {
-    color: white;
+body.dark  > section > div.columns.is-flex-wrap-wrap > div:nth-child(8) > div > h5 {
+    color: rgb(202, 202, 202);
 }
-body.dark > div > section > div > div:nth-child(9) > div > h5 {
-    color: white;
+body.dark  > section > div.columns.is-flex-wrap-wrap > div:nth-child(9) > div > h5 {
+    color: rgb(202, 202, 202);
 }
-body.dark > div > section > div > div:nth-child(10) > div > h5 {
-    color: white;
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(10) > div > h5 {
+    color: rgb(202, 202, 202);
 }
 
 /* BACKGROUND CARD DARKMODE */
 
-body.dark > div > section > div > div:nth-child(1) > div {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(1) > div {
     background-color:rgb(31, 31, 31);
     color: white;
 }
-body.dark > div > section > div > div:nth-child(2) > div {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(2) > div {
     background-color:rgb(31, 31, 31);
     color: white;
 }
-body.dark > div > section > div > div:nth-child(3) > div {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(3) > div {
     background-color:rgb(31, 31, 31);
     color: white;
 }
-body.dark > div > section > div > div:nth-child(4) > div {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(4) > div {
     background-color:rgb(31, 31, 31);
     color: white;
 }
-body.dark > div > section > div > div:nth-child(5) > div {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(5) > div {
     background-color:rgb(31, 31, 31);
     color: white;
 }
-body.dark > div > section > div > div:nth-child(6) > div {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(6) > div {
     background-color:rgb(31, 31, 31);
     color: white;
 }
-body.dark > div > section > div > div:nth-child(7) > div {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(7) > div {
     background-color:rgb(31, 31, 31);
     color: white;
 }
-body.dark > div > section > div > div:nth-child(8) > div {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(8) > div {
     background-color:rgb(31, 31, 31);
     color: white;
 }
-body.dark > div > section > div > div:nth-child(9) > div {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(9) > div {
     background-color:rgb(31, 31, 31);
     color: white;
 }
-body.dark > div > section > div > div:nth-child(10) > div {
+body.dark > section > div.columns.is-flex-wrap-wrap > div:nth-child(10) > div {
     background-color:rgb(31, 31, 31);
     color: white;
 }
+
 
 
 
