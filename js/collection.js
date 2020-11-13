@@ -1,4 +1,4 @@
-
+// Function all collection
 const collection = [
     {
         title: 'Chernobyl',
@@ -123,13 +123,65 @@ const collection = [
 
     },
 ];
-  
+ 
+
+//Function sort
+
+/* const casserole = []
+for(let element of collection) {
+    if(element.author.startsWith('N')) {
+        casserole.push(element)
+    }
+} */
+
+const seriesCommenceParW = []
+for(let element of collection) {
+    if(element.title.startsWith('W')) {
+        seriesCommenceParW.push(element)
+    }
+}
+
+const categoryThriller = []
+    for(let element of collection) {
+        if(element.category.find(c => c.name === 'Thriller')) {
+             categoryThriller.push(element)
+        }
+    }
+
+const categoryDrame = []
+    for(let element of collection) {
+        if(element.category.find(c => c.name === 'Drame')) {
+             categoryDrame.push(element)
+        }
+    }
+const categorySf = []
+    for(let element of collection) {
+        if(element.category.find(c => c.name === 'Science-fiction')) {
+             categorySf.push(element)
+        }
+    }  
+    const categoryPolicier = []
+    for(let element of collection) {
+        if(element.category.find(c => c.name === 'Policier')) {
+             categoryPolicier.push(element)
+        }
+    }
+    //FUNCTION EVENTLISTENER
+    function filterSeries(pattern){
+        const results = []
+      
+      for(let serie of collection){
+          if(serie.title.match(pattern) || serie.description.match(pattern))
+            results.push(serie)
+      }
+      
+      const resultsDiv = document.querySelector('#results')
+      resultsDiv.innerHTML = ''
+      
+   
+//Function create via DOM
 
 
-const changeSousTitre = document.querySelectorAll('.subtitle')
-changeSousTitre.forEach(function(el){
-    el.style.fontStyle = 'italic';
-})
 const rien = document.querySelectorAll('.columns')
     rien.forEach(function(el) {
         el.innerHTML = ''
@@ -142,7 +194,8 @@ const divCol = document.createElement("div")
     divCol.className = "columns is-flex-wrap-wrap"
 
 
-for (let element of collection) {
+
+for (let element of results) {
 
     const div = document.createElement('div')
         div.className = 'column is-3'
@@ -165,7 +218,7 @@ for (let element of collection) {
         author.innerText = element.author
         author.className = 'subtitle is-6'
         author.style.margin = "5px 10px"
-
+        
     const paragraph = document.createElement('p')
         paragraph.textContent = element.description
         paragraph.className = "content mt-3 px-3"
@@ -184,6 +237,7 @@ for (let element of collection) {
         
         newDiv.appendChild(img)
         newDiv.appendChild(title)
+        
         for (let tag of element.category) {
             const tag1 = document.createElement('span')
             tag1.innerText = tag.name
@@ -191,18 +245,28 @@ for (let element of collection) {
 
             newDiv.appendChild(tag1)
         }
-        div.appendChild(newDiv)
         
+        resultsDiv.appendChild(newDiv)
+        div.appendChild(newDiv)        
         divCol.appendChild(div)
         body.appendChild(divCol)
-
         newDiv.appendChild(author)
         newDiv.appendChild(paragraph)
         newDiv.appendChild(footer)
         footer.appendChild(link)
         link.appendChild(icone)
-
-
         
-        
+       
 }
+
+}
+
+
+document.querySelector('#filter_input')
+.addEventListener('change', input => {
+	filterSeries(input.target.value)
+})
+
+
+
+    
