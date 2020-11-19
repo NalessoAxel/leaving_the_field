@@ -30,6 +30,6 @@ Our goals for this exercie was to make a collection of series we like using a CS
 Yes
 
 ## Preview
-![Preview](./img/Preview_leaving_the_field.png)
+![Preview](./img)
 
 [Pages](https://nalessoaxel.github.io/leaving_the_field/)
