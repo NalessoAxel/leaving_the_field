@@ -1,0 +1,139 @@
+.darkModeSwitch {
+    background: black;
+    color: white;
+    display:flex;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.darkModeSwitch span {
+    width:30px;
+    height:30px;
+    line-height:30px;
+    display:block;
+    color:#fff;
+    background: none;
+}
+.darkModeSwitch::after {
+    display:block;
+    background: #fffbf5;
+    width: 2.4rem;
+    height: 2.4rem;
+    position: absolute;
+    top:0;
+    left:0;
+    right:unset;
+    border-radius: 3rem;
+    transition: all .5s ease;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .5);
+    content: "";
+}
+.darkModeSwitch.active{
+    background: #e2e1df;
+}
+.darkModeSwitch.active::after{
+    left:unset;
+    right:0;
+}
+  body {
+    background: white;
+    
+}
+  body.dark{
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+body.dark h1.title  {
+        color: white;
+}
+body.dark p.description {
+    color: white;
+}
+.fas.fa-sun {
+    color: black;
+}
+
+/* TITLE DARKMODE */
+
+
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.container.my-6 > div > div:nth-child(1) > div > div.card-content > p.title.is-4.my-1 {
+    color: rgb(202, 202, 202);
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.container.my-6 > div > div:nth-child(2) > div > div.card-content > p.title.is-4.my-1 {
+    color: rgb(202, 202, 202);
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.container.my-6 > div > div:nth-child(3) > div > div.card-content > p.title.is-4.my-1 {
+    color: rgb(202, 202, 202);
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.container.my-6 > div > div:nth-child(4) > div > div.card-content > p.title.is-4.my-1 {
+    color: rgb(202, 202, 202);
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.columns > div:nth-child(1) > div > div.card-content > p.title.is-4.my-1{
+    color: rgb(202, 202, 202);
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.columns > div:nth-child(2) > div > div.card-content > p.title.is-4.my-1{
+    color: rgb(202, 202, 202);
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.columns > div:nth-child(3) > div > div.card-content > p.title.is-4.my-1{
+    color: rgb(202, 202, 202);
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.columns > div:nth-child(4) > div > div.card-content > p.title.is-4.my-1{
+    color: rgb(202, 202, 202);
+}
+
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.colmun.mt-5.is-8.is-variable > div > div > div:nth-child(1) > div > div.card-content > p.title.is-4.my-1 {
+    color: rgb(202, 202, 202);
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.colmun.mt-5.is-8.is-variable > div > div > div:nth-child(2) > div > div.card-content > p.title.is-4.my-1 {
+    color: rgb(202, 202, 202);
+}
+
+/* BACKGROUND CARD DARKMODE */
+
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.container.my-6 > div > div:nth-child(1) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.container.my-6 > div > div:nth-child(2) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.container.my-6 > div > div:nth-child(3) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.container.my-6 > div > div:nth-child(4) > div  {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.columns > div:nth-child(1) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.columns > div:nth-child(2) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.columns > div:nth-child(3) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.columns > div:nth-child(4) > div {
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark > section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.colmun.mt-5.is-8.is-variable > div > div > div:nth-child(1) > div{
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+body.dark> section > div > div.colmun.mt-5.is-8.is-variable > div.colmun.mt-5.is-8.is-variable > div > div.colmun.mt-5.is-8.is-variable > div > div > div:nth-child(2) > div{
+    background-color:rgb(31, 31, 31);
+    color: white;
+}
+
+
